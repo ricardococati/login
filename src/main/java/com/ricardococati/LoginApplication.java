@@ -6,9 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("com.ricardococati")
-public class SpringBootFirstWebApplication {
+public class LoginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootFirstWebApplication.class, args);
+		SpringApplication.run(LoginApplication.class, args);
 	}
 }
